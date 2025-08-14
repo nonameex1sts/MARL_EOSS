@@ -53,7 +53,7 @@ class QMIX:
                 chosen_agent = np.random.choice(self.env.num_agents, p=q_tot.detach().numpy().flatten())
 
                 next_state, rewards, done = self.env.step(task_index, chosen_agent)
-                total_reward += np.sum(rewards)
+                total_reward += rewards[chosen_agent]
 
                 # Update the agent memories, chosen_agent is 1-indexed (0 is no agent), so we adjust it to 0-indexed
                 for i in range(self.env.num_agents):

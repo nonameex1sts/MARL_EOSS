@@ -21,8 +21,8 @@ if __name__ == "__main__":
 
         # Run NSGA-II to get target assignments
         moo_res = NSGA2_solve(file_path=file_path, 
-                            pop_size=100, 
-                            n_gen=1000, 
+                            pop_size=80, 
+                            n_gen=500, 
                             seed=None, 
                             verbose=False)
 
