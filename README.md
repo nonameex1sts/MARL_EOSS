@@ -7,11 +7,11 @@ This repository contains a modular two-phase framework for solving the **Earth O
 
 The framework separates optimisation from dynamic task allocation, making it flexible, scalable, and supportive of human-in-the-loop decision-making.
 
-<!-- An overview of the framework is shown in the flowchart below:
+An overview of the framework is shown in the flowchart below:
 
 <p align="center">
   <img src="Flowchart.png" width="100%" />
-</p> -->
+</p>
 
 ## Datasets
 
